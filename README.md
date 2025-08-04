@@ -36,5 +36,5 @@ How to Programmatically RECEIVE Data:
   response = socket.recv_string()
   result = json.loads(response)
 
-  print(f"Converted Price: {result['price']} {result['currency']}")
+  print(f"{result['name']}: {result['price']} {result['currency']}")
 </pre>
