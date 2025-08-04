@@ -39,3 +39,4 @@ How to Programmatically RECEIVE Data:
   print(f"{result['name']}: {result['price']} {result['currency']}")
 </pre>
 
+<img width="1062" height="653" alt="Screenshot 2025-08-04 161557" src="https://github.com/user-attachments/assets/7effbd21-3c01-4982-b6d4-b13dada62879" />
