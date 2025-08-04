@@ -11,7 +11,8 @@ Communication Contract:
   json
 
 How to Programmatically REQUEST Data:
-    You can use ZeroMQ in Python to send a JSON request to the microservice like this:
+You can use ZeroMQ in Python to send a JSON request to the microservice like this:
+<pre> ```python 
 import zmq
 import json
 
@@ -28,3 +29,4 @@ request_data = {
 }
 
 socket.send_string(json.dumps(request_data))
+  ``` </pre>
